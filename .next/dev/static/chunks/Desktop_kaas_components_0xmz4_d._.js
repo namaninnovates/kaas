@@ -1528,17 +1528,21 @@ const col2 = [
 ];
 function TestimonialCard({ t }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "glass rounded-3xl p-8 flex flex-col gap-6 w-full shadow-lg hover:shadow-glow transition-all duration-300",
+        className: "rounded-3xl p-8 flex flex-col gap-6 w-full shadow-xl transition-all duration-300",
+        style: {
+            background: "linear-gradient(135deg, #26104A, #3D1A6B)",
+            border: "1px solid rgba(255,255,255,0.1)"
+        },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$quote$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Quote$3e$__["Quote"], {
-                className: "w-10 h-10 text-[#C19A20] opacity-40 rotate-180"
+                className: "w-10 h-10 text-[#C19A20] opacity-50 rotate-180"
             }, void 0, false, {
                 fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
                 lineNumber: 19,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-base text-white/80 leading-relaxed italic",
+                className: "text-base text-white/85 leading-relaxed italic",
                 children: [
                     '"',
                     t.text,
@@ -1601,52 +1605,45 @@ _c = TestimonialCard;
 function Testimonials() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "testimonials",
-        className: "py-32 overflow-hidden",
+        className: "py-32 overflow-hidden bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-12 lg:gap-20 items-center",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "lg:col-span-5 flex flex-col items-start z-10 relative",
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] bg-[#3D1A6B] opacity-20 blur-[100px] -z-10 rounded-full"
-                        }, void 0, false, {
-                            fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                            lineNumber: 42,
-                            columnNumber: 11
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "inline-block px-4 py-1.5 rounded-full text-xs font-semibold bg-white/10 text-[#C4B5E8] border border-white/20 mb-6",
+                            className: "inline-block px-4 py-1.5 rounded-full text-xs font-semibold bg-[#26104A]/10 text-[#26104A] border border-[#26104A]/20 mb-6",
                             children: "Success Stories"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                            lineNumber: 44,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-5xl lg:text-6xl font-black tracking-tighter leading-tight premium-heading mb-6",
+                            className: "text-5xl lg:text-6xl font-black tracking-tighter leading-tight premium-heading mb-6 text-[#130726]",
                             children: [
                                 "Straight from Those Who Chose ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-[#F9D463]",
+                                    className: "text-[#C19A20]",
                                     children: "KAAS"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                                    lineNumber: 48,
+                                    lineNumber: 45,
                                     columnNumber: 43
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                            lineNumber: 47,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-lg text-white/60 leading-relaxed mb-10",
+                            className: "text-lg text-[#130726]/60 leading-relaxed mb-10",
                             children: "Premium financial solutions are about creating a win for everyone in the ecosystem. Here's how our partners and customers benefit when KAAS Financials steps in."
                         }, void 0, false, {
                             fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                            lineNumber: 50,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1658,13 +1655,13 @@ function Testimonials() {
                                     className: "w-5 h-5"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                                    lineNumber: 54,
+                                    lineNumber: 51,
                                     columnNumber: 32
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                            lineNumber: 53,
+                            lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1689,17 +1686,17 @@ function Testimonials() {
                                             t: t
                                         }, `c1-${i}`, false, {
                                             fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                                            lineNumber: 66,
+                                            lineNumber: 63,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                                    lineNumber: 64,
+                                    lineNumber: 61,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                                lineNumber: 63,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1713,28 +1710,28 @@ function Testimonials() {
                                             t: t
                                         }, `c2-${i}`, false, {
                                             fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                                            lineNumber: 76,
+                                            lineNumber: 73,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 71,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                                lineNumber: 72,
+                                lineNumber: 69,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                        lineNumber: 60,
+                        lineNumber: 57,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Desktop/kaas/components/Testimonials.tsx",
-                    lineNumber: 59,
+                    lineNumber: 56,
                     columnNumber: 9
                 }, this)
             ]
@@ -1783,7 +1780,7 @@ var _s = __turbopack_context__.k.signature();
 const info = [
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-            className: "w-6 h-6 text-white"
+            className: "w-6 h-6 text-[#26104A]"
         }, void 0, false, {
             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
             lineNumber: 7,
@@ -1797,7 +1794,7 @@ const info = [
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-            className: "w-6 h-6 text-white"
+            className: "w-6 h-6 text-[#26104A]"
         }, void 0, false, {
             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
             lineNumber: 8,
@@ -1811,7 +1808,7 @@ const info = [
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
-            className: "w-6 h-6 text-white"
+            className: "w-6 h-6 text-[#26104A]"
         }, void 0, false, {
             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
             lineNumber: 9,
@@ -1824,6 +1821,7 @@ const info = [
         ]
     }
 ];
+const inputCls = "w-full px-4 py-3 rounded-xl border border-[#26104A]/20 bg-white text-[#130726] text-sm focus:outline-none focus:ring-2 focus:ring-[#C19A20]/50 transition-all placeholder-[#130726]/30 shadow-sm";
 function Contact() {
     _s();
     const [submitted, setSubmitted] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -1838,7 +1836,7 @@ function Contact() {
     }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "contact",
-        className: "py-32 text-white section-fade",
+        className: "py-32 section-fade bg-white text-[#130726]",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-6",
             children: [
@@ -1846,50 +1844,50 @@ function Contact() {
                     className: "text-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "inline-block px-4 py-1.5 rounded-full text-xs font-semibold bg-[#C19A20]/20 text-[#E2B938] border border-[#C19A20]/30 mb-4",
+                            className: "inline-block px-4 py-1.5 rounded-full text-xs font-semibold bg-[#C19A20]/10 text-[#C19A20] border border-[#C19A20]/30 mb-4",
                             children: "Get In Touch"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                            lineNumber: 26,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl lg:text-5xl font-black tracking-tighter leading-tight premium-heading text-white",
+                            className: "text-4xl lg:text-5xl font-black tracking-tighter leading-tight premium-heading text-[#130726]",
                             children: [
                                 "Ready to ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "animate-shimmer",
+                                    className: "text-[#C19A20]",
                                     children: "Get Started?"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                    lineNumber: 27,
-                                    columnNumber: 126
+                                    lineNumber: 29,
+                                    columnNumber: 130
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                            lineNumber: 27,
+                            lineNumber: 29,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-white/50 mt-3",
+                            className: "text-[#130726]/50 mt-3",
                             children: "Fill in your details — our team responds within 24 hours."
                         }, void 0, false, {
                             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                            lineNumber: 28,
+                            lineNumber: 30,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                    lineNumber: 25,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "grid lg:grid-cols-2 gap-10",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "glass rounded-3xl p-8",
+                            className: "rounded-3xl p-8 shadow-xl border border-[#26104A]/10 bg-white",
                             children: submitted ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "h-full flex flex-col items-center justify-center gap-4 py-12 text-center",
                                 children: [
@@ -1899,28 +1897,28 @@ function Contact() {
                                             className: "w-10 h-10"
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                            lineNumber: 36,
+                                            lineNumber: 38,
                                             columnNumber: 130
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                        lineNumber: 36,
+                                        lineNumber: 38,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-bold",
+                                        className: "text-xl font-bold text-[#130726]",
                                         children: "Thank you!"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 39,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-white/60",
+                                        className: "text-[#130726]/60",
                                         children: "We'll reach you within 24 hours."
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 40,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1929,13 +1927,13 @@ function Contact() {
                                         children: "Submit another"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 41,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                lineNumber: 35,
+                                lineNumber: 37,
                                 columnNumber: 15
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
                                 onSubmit: handleSubmit,
@@ -1960,11 +1958,11 @@ function Contact() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                         htmlFor: f.id,
-                                                        className: "block text-sm font-semibold mb-2",
+                                                        className: "block text-sm font-semibold mb-2 text-[#130726]",
                                                         children: f.label
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                                        lineNumber: 49,
+                                                        lineNumber: 51,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -1972,55 +1970,55 @@ function Contact() {
                                                         type: f.type,
                                                         placeholder: f.ph,
                                                         required: true,
-                                                        className: "w-full px-4 py-3 rounded-xl border border-[#C19A20]/20 bg-white/10 text-sm focus:outline-none focus:ring-2 focus:ring-[#C19A20]/50 transition-all placeholder-white/40"
+                                                        className: inputCls
                                                     }, void 0, false, {
                                                         fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                                        lineNumber: 50,
+                                                        lineNumber: 52,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, f.id, true, {
                                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                                lineNumber: 48,
+                                                lineNumber: 50,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                        lineNumber: 43,
+                                        lineNumber: 45,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 htmlFor: "femail",
-                                                className: "block text-sm font-semibold mb-2",
+                                                className: "block text-sm font-semibold mb-2 text-[#130726]",
                                                 children: "Email Address"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 57,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 id: "femail",
                                                 type: "email",
                                                 placeholder: "ramesh@email.com",
-                                                className: "w-full px-4 py-3 rounded-xl border border-[#C19A20]/20 bg-white/10 text-sm focus:outline-none focus:ring-2 focus:ring-[#C19A20]/50 transition-all placeholder-white/40"
+                                                className: inputCls
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                                lineNumber: 57,
+                                                lineNumber: 58,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                        lineNumber: 55,
+                                        lineNumber: 56,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 htmlFor: "fproduct",
-                                                className: "block text-sm font-semibold mb-2",
+                                                className: "block text-sm font-semibold mb-2 text-[#130726]",
                                                 children: "Product of Interest"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
@@ -2030,7 +2028,7 @@ function Contact() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                                                 id: "fproduct",
                                                 required: true,
-                                                className: "w-full px-4 py-3 rounded-xl border border-[#C19A20]/20 bg-white/10 text-sm focus:outline-none focus:ring-2 focus:ring-[#C19A20]/50 transition-all text-white/70",
+                                                className: inputCls + " text-[#130726]/70 cursor-pointer",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
                                                         value: "",
@@ -2069,7 +2067,7 @@ function Contact() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                 htmlFor: "fmsg",
-                                                className: "block text-sm font-semibold mb-2",
+                                                className: "block text-sm font-semibold mb-2 text-[#130726]",
                                                 children: "Message (Optional)"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
@@ -2080,7 +2078,7 @@ function Contact() {
                                                 id: "fmsg",
                                                 rows: 3,
                                                 placeholder: "Tell us about your requirement...",
-                                                className: "w-full px-4 py-3 rounded-xl border border-[#C19A20]/20 bg-white/10 text-sm focus:outline-none focus:ring-2 focus:ring-[#C19A20]/50 transition-all placeholder-white/40 resize-none"
+                                                className: inputCls + " resize-none"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
                                                 lineNumber: 69,
@@ -2121,22 +2119,26 @@ function Contact() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                                lineNumber: 42,
+                                lineNumber: 44,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                            lineNumber: 33,
+                            lineNumber: 35,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex flex-col gap-5",
                             children: [
                                 info.map(({ icon, title, lines })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "glass-gold rounded-2xl p-5 flex items-start gap-4 hover:scale-[1.02] transition-transform duration-300",
+                                        className: "rounded-2xl p-5 flex items-start gap-4 hover:scale-[1.02] transition-transform duration-300 shadow-lg",
+                                        style: {
+                                            background: "linear-gradient(135deg, #26104A, #3D1A6B)",
+                                            border: "1px solid rgba(255,255,255,0.1)"
+                                        },
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "mt-1",
+                                                className: "mt-1 w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0",
                                                 children: icon
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
@@ -2154,7 +2156,7 @@ function Contact() {
                                                         columnNumber: 19
                                                     }, this),
                                                     lines.map((l)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                            className: "text-sm text-white/60",
+                                                            className: "text-sm text-white/65",
                                                             children: l
                                                         }, l, false, {
                                                             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
@@ -2174,16 +2176,20 @@ function Contact() {
                                         columnNumber: 15
                                     }, this)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "glass rounded-2xl p-5 flex items-start gap-4 border border-green-400/30 hover:scale-[1.02] transition-transform duration-300",
+                                    className: "rounded-2xl p-5 flex items-start gap-4 hover:scale-[1.02] transition-transform duration-300 shadow-lg",
+                                    style: {
+                                        background: "linear-gradient(135deg, #26104A, #3D1A6B)",
+                                        border: "1px solid rgba(74,222,128,0.2)"
+                                    },
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "mt-1",
+                                            className: "mt-1 w-10 h-10 rounded-full bg-green-400/10 flex items-center justify-center shrink-0",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
                                                 className: "w-6 h-6 text-green-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/Desktop/kaas/components/Contact.tsx",
                                                 lineNumber: 92,
-                                                columnNumber: 38
+                                                columnNumber: 119
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
@@ -2251,7 +2257,7 @@ function Contact() {
                                                 lineNumber: 102,
                                                 columnNumber: 25
                                             }, this),
-                                            c: "bg-[#1E1A2E] border border-white/20"
+                                            c: "bg-[#26104A] border border-white/20"
                                         },
                                         {
                                             icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"], {
@@ -2286,18 +2292,18 @@ function Contact() {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-                    lineNumber: 31,
+                    lineNumber: 33,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-            lineNumber: 24,
+            lineNumber: 26,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/Desktop/kaas/components/Contact.tsx",
-        lineNumber: 23,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }

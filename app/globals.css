@@ -173,3 +173,27 @@ input[type=range]::-webkit-slider-thumb:hover {
   -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
 }
 
+
+@keyframes marquee-horizontal {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee-horizontal {
+  animation: marquee-horizontal 28s linear infinite;
+  display: flex;
+  width: max-content;
+}
+.animate-marquee-horizontal:hover {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-vertical-reverse {
+  from { transform: translateY(-50%); }
+  to { transform: translateY(0); }
+}
+.animate-marquee-vertical-reverse {
+  animation: marquee-vertical-reverse 25s linear infinite;
+}
+.animate-marquee-vertical-reverse-slow {
+  animation: marquee-vertical-reverse 35s linear infinite;
+}

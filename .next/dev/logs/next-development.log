@@ -22,3 +22,20 @@
 {"timestamp":"00:26:55.480","source":"Server","level":"LOG","message":"✓ Compiled in 40ms"}
 {"timestamp":"00:27:19.839","source":"Server","level":"LOG","message":"✓ Compiled in 0ms"}
 {"timestamp":"00:30:19.159","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:40:15.233","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"00:41:44.385","source":"Server","level":"LOG","message":"✓ Compiled in 29ms"}
+{"timestamp":"00:43:23.022","source":"Server","level":"LOG","message":"✓ Compiled in 0ms"}
+{"timestamp":"00:43:35.686","source":"Server","level":"LOG","message":"✓ Compiled in 15ms"}
+{"timestamp":"00:43:44.498","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:43:48.643","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:45:07.790","source":"Server","level":"LOG","message":"✓ Compiled in 32ms"}
+{"timestamp":"00:46:25.531","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:46:39.150","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"00:47:54.233","source":"Server","level":"LOG","message":"✓ Compiled in 27ms"}
+{"timestamp":"00:48:32.263","source":"Server","level":"LOG","message":"✓ Compiled in 21ms"}
+{"timestamp":"00:50:10.194","source":"Server","level":"LOG","message":"✓ Compiled in 22ms"}
+{"timestamp":"00:51:47.242","source":"Server","level":"LOG","message":"✓ Compiled in 47ms"}
+{"timestamp":"00:52:55.586","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:54:41.504","source":"Server","level":"LOG","message":"✓ Compiled in 33ms"}
+{"timestamp":"00:55:06.655","source":"Server","level":"LOG","message":"✓ Compiled in 16ms"}
+{"timestamp":"00:57:42.377","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}

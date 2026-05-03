@@ -1055,8 +1055,8 @@ const benefits = [
         }, ("TURBOPACK compile-time value", void 0)),
         title: "Premium Experience",
         desc: "We provide a seamless, digital-first journey for all your financial needs.",
-        bg: "bg-white/10 border border-white/20",
-        text: "text-[#C4B5E8]"
+        bg: "bg-[#130726]/5 border border-[#130726]/10",
+        text: "text-[#130726]"
     },
     {
         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
@@ -1068,7 +1068,7 @@ const benefits = [
         }, ("TURBOPACK compile-time value", void 0)),
         title: "Trusted Partners",
         desc: "Collaborating with RBI-regulated NBFCs and IRDAI-approved insurers.",
-        bg: "bg-white/5 border border-white/10 backdrop-blur-md",
+        bg: "bg-[#130726]/5 border border-[#130726]/10",
         text: "text-[#C19A20]"
     },
     {
@@ -1100,7 +1100,7 @@ const benefits = [
 ];
 function Benefits() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "py-32 section-fade",
+        className: "py-32 section-fade bg-white",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "max-w-7xl mx-auto px-6",
             children: [
@@ -1108,7 +1108,7 @@ function Benefits() {
                     className: "text-center mb-20",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "inline-block px-4 py-1.5 rounded-full text-xs font-bold bg-[#C19A20]/10 text-[#E2B938] border border-[#C19A20]/20 mb-4 tracking-widest uppercase",
+                            className: "inline-block px-4 py-1.5 rounded-full text-xs font-bold bg-[#C19A20]/10 text-[#C19A20] border border-[#C19A20]/20 mb-4 tracking-widest uppercase",
                             children: "Why Choose Us"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/kaas/components/Benefits.tsx",
@@ -1116,7 +1116,7 @@ function Benefits() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-4xl lg:text-6xl font-black tracking-tighter leading-tight premium-heading text-white",
+                            className: "text-4xl lg:text-6xl font-black tracking-tighter leading-tight premium-heading text-[#130726]",
                             children: [
                                 "Excellence in ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1145,7 +1145,7 @@ function Benefits() {
                             className: "flex flex-col items-center text-center group",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `w-24 h-24 rounded-[2.5rem] ${b.bg} ${b.text} shadow-xl shadow-black/20 flex items-center justify-center mb-10 group-hover:scale-110 group-hover:shadow-[#C19A20]/20 transition-all duration-500`,
+                                    className: `w-24 h-24 rounded-[2.5rem] ${b.bg} ${b.text} shadow-xl shadow-black/5 flex items-center justify-center mb-10 group-hover:scale-110 group-hover:shadow-[#C19A20]/20 transition-all duration-500`,
                                     children: b.icon
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/kaas/components/Benefits.tsx",
@@ -1153,7 +1153,7 @@ function Benefits() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-2xl font-black mb-4 text-white tracking-tight",
+                                    className: "text-2xl font-black mb-4 text-[#130726] tracking-tight",
                                     children: b.title
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/kaas/components/Benefits.tsx",
@@ -1161,7 +1161,7 @@ function Benefits() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-base text-white/60 leading-relaxed font-medium",
+                                    className: "text-base text-[#130726]/70 leading-relaxed font-medium",
                                     children: b.desc
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/kaas/components/Benefits.tsx",

@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { ChevronRight } from "lucide-react";
 
 const links = ["Home","About","EMI Calc","Stories","Contact"];
-const hrefs = ["#home","#about","#calculator","#testimonials","#contact"];
+const hrefs = ["/#home","/#about","/calculator","/#testimonials","/#contact"];
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -16,30 +16,30 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className={`fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 w-[95%] max-w-7xl`}>
-      <div className={`flex items-center justify-between px-8 py-4 rounded-full transition-all duration-500 ${scrolled ? "glass shadow-2xl shadow-[#C19A20]/20 border-[#C19A20]/10" : "bg-white/5 backdrop-blur-md border-white/10 shadow-lg"}`}>
+    <nav className={`fixed top-4 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 w-[92%] max-w-6xl`}>
+      <div className="flex items-center justify-between px-5 py-2.5 rounded-full transition-all duration-500 bg-[#26104A]/90 backdrop-blur-xl border border-white/10 shadow-2xl shadow-black/30">
         {/* Logo */}
-        <a href="#home" className="flex items-center gap-1 text-xl font-bold tracking-tight">
-          <span className="text-[#E2B938] text-2xl font-black">K</span>
-          <span className={`transition-colors duration-500 ${scrolled ? "text-white" : "text-white"}`}>AAS</span>
-          <span className={`ml-1 font-semibold transition-colors duration-500 ${scrolled ? "text-[#C4B5E8]" : "text-[#DCD3F8]"}`}>Financials</span>
+        <a href="/#home" className="flex items-center gap-1 text-base font-bold tracking-tight">
+          <span className="text-[#E2B938] text-lg font-black">K</span>
+          <span className="text-white">AAS</span>
+          <span className="ml-1 text-sm font-semibold text-[#DCD3F8]">Financials</span>
         </a>
 
         {/* Desktop Links */}
-        <ul className="hidden md:flex items-center gap-7">
+        <ul className="hidden md:flex items-center gap-5">
           {links.map((l, i) => (
             <li key={l}>
-              <a href={hrefs[i]} className={`text-sm font-semibold transition-colors duration-200 relative group ${scrolled ? "text-white/70 hover:text-[#C19A20]" : "text-white/80 hover:text-[#E2B938]"}`}>
+              <a href={hrefs[i]} className="text-xs font-semibold transition-colors duration-200 relative group text-white/75 hover:text-[#E2B938]">
                 {l}
-                <span className={`absolute -bottom-1 left-0 w-0 h-0.5 transition-all duration-300 rounded-full ${scrolled ? "bg-[#C19A20]" : "bg-[#E2B938]"} group-hover:w-full`} />
+                <span className="absolute -bottom-0.5 left-0 w-0 h-0.5 transition-all duration-300 rounded-full bg-[#E2B938] group-hover:w-full" />
               </a>
             </li>
           ))}
         </ul>
 
         {/* CTA */}
-        <a href="#contact" className="hidden md:inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold text-white gold-gradient shadow-lg hover:shadow-[0_0_20px_rgba(201,168,76,0.6)] hover:scale-105 transition-all duration-300">
-          Apply Now <ChevronRight className="w-4 h-4" />
+        <a href="/#contact" className="hidden md:inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-xs font-bold text-[#130726] gold-gradient shadow-lg hover:shadow-[0_0_20px_rgba(201,168,76,0.6)] hover:scale-105 transition-all duration-300">
+          Apply Now <ChevronRight className="w-3.5 h-3.5" />
         </a>
 
         {/* Hamburger */}

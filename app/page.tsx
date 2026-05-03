@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import TrustStrip from "@/components/TrustStrip";
 import HowItWorks from "@/components/HowItWorks";
-import EMICalculator from "@/components/EMICalculator";
+
 import Testimonials from "@/components/Testimonials";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
@@ -19,7 +19,7 @@ export default function Home() {
         <TrustStrip />
         <Benefits />
         <HowItWorks />
-        <EMICalculator />
+
         <Testimonials />
         <About />
         <Contact />

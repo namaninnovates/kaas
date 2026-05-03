@@ -54,7 +54,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section id="home" ref={heroContentRef} className="relative min-h-screen flex items-center overflow-hidden pt-32 pb-24 text-white">
+    <section id="home" ref={heroContentRef} className="relative min-h-screen flex items-center overflow-hidden pt-24 pb-16 text-white">
       {/* BG blobs */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[#8B7CC8] opacity-20 blur-3xl animate-mesh -z-10 translate-x-1/3 -translate-y-1/4" />
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] rounded-full bg-[#C19A20] opacity-10 blur-3xl animate-mesh -z-10 -translate-x-1/3 translate-y-1/4" style={{animationDelay: "2s"}} />
@@ -62,28 +62,25 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center w-full">
         {/* Left */}
-        <div className="hero-content-wrapper">
-          <div className="hero-badge inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white/10 border border-white/20 text-xs font-bold text-[#E2B938] mb-8 tracking-wide">
-            <Award className="w-4 h-4" /> RBI Compliant &nbsp;·&nbsp; 100% Digital &nbsp;·&nbsp; Trusted by 50,000+
-          </div>
-          <h1 className="hero-title text-6xl lg:text-7xl xl:text-8xl font-black leading-[1.1] mb-8 text-white uppercase tracking-tight">
+        <div className="hero-content-wrapper text-center flex flex-col items-center">
+          <h1 className="hero-title text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.08] mb-6 text-white uppercase tracking-tight">
             Finance That<br/>
             <span className="animate-shimmer">Moves With You</span>
           </h1>
-          <p className="hero-sub text-xl text-white/70 leading-relaxed mb-10 max-w-xl font-medium">
+          <p className="hero-sub text-lg text-white/70 leading-relaxed mb-8 max-w-lg font-medium">
             From green EV loans to earned wage access — KAAS Financials delivers premium financial solutions with zero paperwork and instant approvals.
           </p>
-          <div className="hero-ctas flex flex-wrap gap-5 mb-12">
-            <a href="#contact" className="px-12 py-5 rounded-full text-white font-black bg-[#E2B938] shadow-2xl shadow-[#C19A20]/30 hover:scale-105 transition-all duration-300 flex items-center gap-2">
+          <div className="hero-ctas flex flex-wrap gap-4 mb-10 justify-center">
+            <a href="/#contact" className="px-10 py-4 rounded-full text-[#130726] font-black bg-[#E2B938] shadow-2xl shadow-[#C19A20]/30 hover:scale-105 transition-all duration-300 flex items-center gap-2">
               Get Started <ChevronRight className="w-5 h-5" />
             </a>
-            <a href="#calculator" className="px-12 py-5 rounded-full font-black border-2 border-white/20 text-white hover:border-[#E2B938] hover:text-[#E2B938] transition-all duration-300 bg-white/5 backdrop-blur-sm">
+            <a href="/calculator" className="px-10 py-4 rounded-full font-black border-2 border-white/20 text-white hover:border-[#E2B938] hover:text-[#E2B938] transition-all duration-300 bg-white/5 backdrop-blur-sm">
               Try Calculator
             </a>
           </div>
 
           {/* Stats */}
-          <div className="hero-stats flex flex-wrap gap-12 mt-12">
+          <div className="hero-stats flex flex-wrap gap-10 mt-8">
             <div>
               <div className="flex items-end gap-1">
                 <span ref={r1} className="text-4xl font-black text-white tracking-tighter">0</span>
@@ -166,11 +163,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll hint */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-40">
-        <span className="text-xs font-medium">Scroll to explore</span>
-        <div className="w-1 h-6 rounded-full bg-[#C19A20] animate-bounce" />
-      </div>
+
     </section>
   );
 }

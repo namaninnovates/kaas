@@ -1,27 +1,43 @@
-import { Landmark, ShieldCheck, Lock } from "lucide-react";
+import { Landmark, ShieldCheck, Lock, Award, Zap, Users, Globe, Star, BadgeCheck, CreditCard, Leaf, TrendingUp } from "lucide-react";
+
+const items = [
+  { icon: <Landmark className="w-5 h-5" />,    label: "RBI Compliant" },
+  { icon: <ShieldCheck className="w-5 h-5" />, label: "IRDAI Approved" },
+  { icon: <Lock className="w-5 h-5" />,        label: "ISO 27001 Certified" },
+  { icon: <Award className="w-5 h-5" />,       label: "Best Fintech 2024" },
+  { icon: <Zap className="w-5 h-5" />,         label: "Instant Approvals" },
+  { icon: <Users className="w-5 h-5" />,       label: "50,000+ Customers" },
+  { icon: <Globe className="w-5 h-5" />,       label: "Pan India Operations" },
+  { icon: <Star className="w-5 h-5" />,        label: "4.9★ Rated" },
+  { icon: <BadgeCheck className="w-5 h-5" />,  label: "NBFC Regulated" },
+  { icon: <CreditCard className="w-5 h-5" />,  label: "0 Hidden Charges" },
+  { icon: <Leaf className="w-5 h-5" />,        label: "Green Finance" },
+  { icon: <TrendingUp className="w-5 h-5" />,  label: "₹500Cr+ Disbursed" },
+];
+
+// Duplicate for seamless loop
+const doubled = [...items, ...items];
 
 export default function TrustStrip() {
-  const logos = [
-    { icon: <Landmark className="w-6 h-6" />, label: "RBI Compliant" },
-    { icon: <ShieldCheck className="w-6 h-6" />, label: "IRDAI Approved" },
-    { icon: <Lock className="w-6 h-6" />, label: "ISO 27001" },
-  ];
   return (
-    <section className="py-12 border-y border-white/10 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-8">
-          <span className="text-[10px] font-black text-white/40 uppercase tracking-[0.2em] whitespace-nowrap">
-            Regulated & Trusted By
-          </span>
-          <div className="flex flex-wrap gap-8 md:gap-16 justify-center items-center">
-            {logos.map(({ icon, label }) => (
-              <div key={label} className="flex items-center gap-3 text-sm font-bold text-white/60 hover:text-[#C19A20] transition-all duration-300 group">
-                <span className="text-2xl grayscale group-hover:grayscale-0 transition-all duration-300">{icon}</span>
-                <span className="whitespace-nowrap">{label}</span>
-              </div>
-            ))}
+    <section className="py-5 border-y border-white/10 overflow-hidden relative">
+      {/* Edge fade masks */}
+      <div className="pointer-events-none absolute inset-y-0 left-0 w-24 z-10"
+        style={{ background: "linear-gradient(to right, #130726, transparent)" }} />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-24 z-10"
+        style={{ background: "linear-gradient(to left, #130726, transparent)" }} />
+
+      <div className="animate-marquee-horizontal">
+        {doubled.map(({ icon, label }, i) => (
+          <div
+            key={i}
+            className="flex items-center gap-2.5 px-8 text-sm font-semibold text-white/55 hover:text-[#C19A20] transition-colors duration-300 whitespace-nowrap cursor-default"
+          >
+            <span className="text-[#C19A20]/70">{icon}</span>
+            {label}
+            <span className="ml-8 text-white/20">✦</span>
           </div>
-        </div>
+        ))}
       </div>
     </section>
   );
