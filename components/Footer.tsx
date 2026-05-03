@@ -17,15 +17,15 @@ const cols = [
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1E0B3B] text-white/70 pt-16 pb-8">
+    <footer className="bg-[#130726] text-white/70 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="text-xl font-bold mb-4">
-              <span className="text-[#F0CC6E] text-2xl font-black">K</span>
+              <span className="text-[#E2B938] text-2xl font-black">K</span>
               <span className="text-white">AAS</span>
-              <span className="text-[#8B7CC8] font-semibold ml-1">Financials</span>
+              <span className="text-[#C4B5E8] font-semibold ml-1">Financials</span>
             </div>
             <p className="text-sm leading-relaxed mb-5">
               Next-gen fintech platform delivering smart, green, and instant financial solutions across India.
@@ -50,7 +50,7 @@ export default function Footer() {
               <ul className="space-y-2.5">
                 {col.links.map(([label, href]) => (
                   <li key={label}>
-                    <a href={href} className="text-sm hover:text-[#F0CC6E] transition-colors duration-200">{label}</a>
+                    <a href={href} className="text-sm hover:text-[#E2B938] transition-colors duration-200">{label}</a>
                   </li>
                 ))}
               </ul>

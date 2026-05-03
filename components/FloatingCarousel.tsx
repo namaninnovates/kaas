@@ -121,12 +121,12 @@ export default function FloatingCarousel() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="relative h-screen flex flex-col justify-center bg-[#F8F7FF] overflow-hidden py-20">
+    <section ref={sectionRef} className="relative h-screen flex flex-col justify-center overflow-hidden py-20">
       <div className="px-6 mb-12 max-w-7xl mx-auto w-full">
-        <span className="inline-block px-4 py-1.5 rounded-full text-xs font-semibold bg-[#C9A84C]/10 text-[#A07830] border border-[#C9A84C]/20 mb-4">
+        <span className="inline-block px-4 py-1.5 rounded-full text-xs font-semibold bg-[#C19A20]/10 text-[#E2B938] border border-[#C19A20]/20 mb-4">
           Solutions Showcase
         </span>
-        <h2 className="text-4xl lg:text-5xl font-black">
+        <h2 className="text-4xl lg:text-5xl font-black tracking-tighter leading-tight premium-heading">
           Dynamic Solutions for <span className="animate-shimmer">Modern Lives</span>
         </h2>
       </div>
@@ -142,11 +142,11 @@ export default function FloatingCarousel() {
               <span className={`text-xs font-bold uppercase tracking-widest ${card.text} opacity-70`}>
                 {card.subtitle}
               </span>
-              <h3 className="text-2xl font-black mt-2 text-charcoal">{card.title}</h3>
+              <h3 className="text-2xl font-black mt-2 text-white">{card.title}</h3>
             </div>
             
             <div>
-              <p className="text-sm text-charcoal/60 leading-relaxed mb-8">
+              <p className="text-sm text-white/60 leading-relaxed mb-8">
                 {card.desc}
               </p>
               <button className={`text-sm font-bold flex items-center gap-2 group ${card.text}`}>
